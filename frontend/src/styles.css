@@ -1,0 +1,23 @@
+:root{
+  --bg:#f7fafc;
+  --card:#ffffff;
+  --accent:#2563eb;
+  --muted:#6b7280;
+  --danger:#b91c1c;
+}
+body{background:var(--bg);font-family:Inter,Segoe UI,Roboto,Arial,Helvetica,sans-serif;margin:0;padding:20px}
+.app-root{max-width:900px;margin:24px auto}
+.app-header{text-align:center;margin-bottom:18px}
+.app-header .lead{color:var(--muted);margin-top:6px}
+.card{background:var(--card);padding:18px;border-radius:8px;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+.form-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.form-row{display:flex;flex-direction:column}
+.label{font-size:13px;font-weight:600;margin-bottom:6px}
+.input{padding:8px;border:1px solid #e6e9ef;border-radius:6px}
+.model-select{margin-top:12px;display:flex;gap:12px}
+.btn{background:var(--accent);color:#fff;padding:8px 14px;border-radius:6px;border:0;cursor:pointer}
+.result{margin-top:14px;padding:12px;border-radius:6px;border:1px solid #eef2ff}
+.muted{color:var(--muted);font-size:13px}
+.warn{color:var(--danger)}
+.ok{color:#15803d}
+.app-footer{text-align:center;margin-top:12px;color:var(--muted);font-size:13px}
